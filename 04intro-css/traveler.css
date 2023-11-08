@@ -1,0 +1,115 @@
+/*the font is  arvo and the colors are variants of pink and yellow*/
+body {
+    font-family: 'Arvo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/* Header stuff here*/
+header {
+    background-color: #F2CECE;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #F26D6D;
+}
+header p {
+    margin: 0;
+    color: #F26D6D;
+    letter-spacing: .5px;
+}
+
+/*nav stuff goes here*/
+nav{
+    background-color: #F2DA5E;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a { 
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #F26D6D;
+    font-weight: 400;
+    display: block;
+    padding: 0.83rem 2rem;
+}
+nav li.active a{
+    background-color:#F26D6D;
+    color: #F2DA5E;
+}
+nav a:hover {
+    color: white; 
+}
+
+/*stuff for the main*/
+main{
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #F26C6D;
+}
+main h2 {
+    color: #F26C6D;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #F2ACAC;
+    margin: 0 0 .3rem 0;
+}
+
+main dl dt {
+    color: #F2ACAC;
+    font-weight: 400;
+}
+main dl dd{
+    color: #F2ACAC;
+    font-size: .9rem;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    color: #F2ACAC;
+}
+main ul {
+    list-style-type: circle;
+    color: #F2ACAC;
+    
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+}
+
+main address{
+    font-style: normal;
+    background-color: #F2ACAC;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #F2ACAC;
+    border-radius: .5rem;
+}
+main a{
+    color: #F26D6D;
+}
+main a:hover {
+    color: #F2DA5E;
+}
+
+/* Footer stuff here*/
+
+footer{
+    background-color: #F2CECE;
+    text-align: center;
+    color: #F26D6D;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color:#F26D6D;
+}
