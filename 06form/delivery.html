@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head> 
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Dress Bunny: Home</title>
+        <meta name="description" content= "Follow along for some fun outfit inspiration">
+        <meta name="author" content="Camille Martinez">
+        <link rel="stylesheet" href="traveler.css">
+
+    </head>
+    <body>
+        <!--Start of the page header -->
+        <header>
+            <h1> Dress Bunny</h1>
+            <p>Outfit inspiration in a swipe</p>
+    
+        </header>
+        
+       
+        
+        <!-- Start of navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="makinganoutfit.html">How do I Make an Outfit?</a></li>
+                <li><a href="pieces.html">Pieces</a></li>
+                <li class="active"><a href="delivery.html"> Place an Order</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            <h1>Place an Order</h1>
+            <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+            <legend>Customer Information</legend>    
+           <label>First Name*<input type="text" name="fname" required></label>
+             <label>Last Name*<input type="text" name="lname" required></label>    
+             <label>Cell Number*<input type="tel" name="phone" required placeholder="234-785-0923"></label>    
+            </fieldset>    
+            
+              <fieldset>
+               <legend>Delivery Method</legend> 
+                  <label><input type="radio" name="method" value="drone">Drone Delivery (2hrs)</label>
+                   <label><input type="radio" name="method" value="cycle">Motorcycle (4hrs)</label> 
+                 <label><input type="radio" name="method" value="robot">Robot (6hrs)</label> 
+                
+                
+                </fieldset>  
+                
+                <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" value="Chosen"> Front Porch</label>
+                <label><input type="checkbox" name="deck" value="Chosen"> Back Deck</label>
+                <label><input type="checkbox" name="driveway" value="Chosen"> Driveway</label>
+                <label><input type="checkbox" name="garage" value="Chosen"> Inside the Garage</label>
+                    
+                    <label>Preferred Delivery Time
+                <select name="time">
+                 <option value="none">Please Select</option>   
+                  <option value="morning">Between 7:00am and 11:00am</option> 
+                    <option value="noon">Between 11:00am and 2:00pm</option>  
+                    <option value="afternoon">Between 2:00pm and 5:00pm</option>  
+                    <option value="evening">Between 5:00pm and 8:00pm</option>   
+                </select>
+                        </label>
+                    
+                    
+                    
+                    
+                </fieldset>
+                
+                <label>Comments
+                <textarea name="comments">Please add any special instructions</textarea>
+                
+                
+                </label>
+                
+                
+                
+                
+            <input type="submit" value="Send Delivery Request">
+            
+            </form>
+          
+        </main>
+        <!--Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Camille Martinez &bull; <a href="mailto:zen@gmail.com"> Email Me </a></p>
+        </footer>
+        
+        
+    
