@@ -251,7 +251,7 @@ table.our-activities th {
     text-align: left;
 }
 table.our-activities td {
-    color: #363062;
+    color:#363062;
     padding: .4rem 2vw;
 }
 table.our-activities tr:nth-child(odd) {
