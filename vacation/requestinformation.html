@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Budget Vacations: Home</title>
+    <meta name="description" content="Commit to finding the best vacations of your  life!">
+       
+    <meta name ="author" content="Camille Martinez">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Poppins:wght@300;700&display=swap" rel="stylesheet">    
+     
+    </head>
+    
+    <body>
+      
+    <header>
+        <h1>Budget Vacations</h1>
+        <p>Commit to finding the best vacations of your life!</p> 
+    </header>
+      
+    <nav>
+        <ul>
+        <li><a href="index.html">Who we Are</a></li>
+        <li><a href="destinations.html">Destination Gallery</a></li>
+        <li><a href="intro.html">Introductory Video</a></li>
+        <li><a href="packages.html">Destination Packages</a></li> 
+        <li class="active"><a href="requestinformation.html">Contact Us</a></li> 
+          
+        </ul>
+    </nav> 
+        
+        <main>
+        <h1>Request Information</h1>
+        <form method="get" class="form" action="thanks.html">
+            <fieldset>
+                
+            <legend>Customer Information</legend>
+            <labeL>First Name:<input type="text" name="fname" required></labeL>
+            <labeL>Last Name:<input type="text" name="lname" required></labeL>
+            <labeL>Destination:<input type="text" name="destination" required></labeL>     
+            <labeL>Cell Number:<input type="tel" name="phone" required placeholder="675-897-1234"></labeL>
+            
+               
+            
+            
+            </fieldset>
+            
+            <fieldset>
+            <legend>Travel Preference</legend>
+            <label><input type="radio" name="options" value="train">Train</label>
+            <label><input type="radio" name="options" value="plane">Plane</label>
+            <label><input type="radio" name="options" value="bus">Bus</label>    
+            
+            </fieldset>
+            
+            <fieldset>
+                
+            <legend>Accessibility and Disability Considerations</legend>
+            <label>
+            <select name="Disabilities and Considerations">
+            <option value="no">Please Select</option>    
+            <option value="none">None</option> 
+            <option value="kids">Children</option>
+            <option value="elderly">Elderly</option>    
+            <option value="blind">Blind</option>
+            <option value="wheelchair">Wheelchair User</option>
+            </select>
+            </label>        
+                
+            </fieldset>
+            
+            <label>Comments
+                <textarea name="comments">Please add any other considerations</textarea>
+            </label>
+            
+            
+            
+            <input type="submit" value="Send Information Request">
+        </form>
+        
+  
+        
+        </main>
+        
+    <footer>
+        <p>&copy; 2023 &bull; Budget Vacations &bull; <a href="mailto:BudgetVa@gmail.com">Email Us</a></p>
+        
+        
+    </footer>
+    </body>
+</html>

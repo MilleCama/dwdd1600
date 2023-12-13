@@ -1,0 +1,275 @@
+/*the font is  arvo and the colors are variants of pink and yellow*/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/* Header stuff here*/
+header {
+    background-color: #29335C;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #F3A712;
+}
+header p {
+    margin: 0;
+    color: #F3A712;
+    letter-spacing: .5px;
+}
+
+/*nav stuff goes here*/
+
+
+
+/*SMALL SCREENS*/
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+       
+        
+    }
+    nav border {
+        border-radius: 15px;
+    }
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align:center;
+        border-bottom: solid 1px #aaa;
+        color: #F3A712;
+    }
+    
+    nav .active a {
+        background-color: #29335C;
+        background-image: linear-gradient(to bottom, #29335C, #F3A712);
+        color: white;
+        
+    }
+    
+    
+    
+} /*end of the media query*/
+
+
+/*BIG SCREENS*/
+
+@media only screen and (min-width: 601px) {
+    
+    nav{
+    background-color: #F3A712;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a { 
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    display: block;
+    padding: 0.83rem 2rem;
+}
+nav li.active a{
+    background-color: #29335C;
+    color: WHITE;
+}
+nav a:hover {
+    color: white; 
+}
+    
+    
+} /*end of the media query*/
+
+
+/*stuff for the main*/
+main{
+   padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #29335C;
+}
+
+figure.travel {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    
+    
+}
+figure.travel img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+    border: 5px solid #F3A712;
+     
+}
+
+div.gallery figure:hover {
+    
+    box-shadow: 0px 0px 10px black;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #29335C;
+ 
+    
+}
+/*picturesforpackages*/
+
+figure.oaxaca img {
+    float: left;
+    margin-right: 20px;
+    padding: 1rem;
+    padding-bottom: 3rem;
+     
+
+}
+
+figure.oaxaca ul {
+    margin-right: 20px;
+    color: #29335C;
+    
+}
+
+
+
+
+
+
+
+
+
+fieldset{
+    border: 1px solid #F3A712;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+
+.form fieldset {
+    border: 1px solid #F3A712;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.form legend {
+    color: #29335C;
+    font-size: .8rem;
+}
+.form label {
+    margin: .5rem;
+    
+}
+
+.form label, .form select, .form [type=text], .form [type=tel], .form textarea {
+    display: block;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.form [type=text], .form [type=tel], .form select, .form textarea {
+    border: solid 1px #29335C;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+}
+
+.form textarea {
+    height: 6rem;
+    
+}
+
+.form :required {
+    background-color: rgb(41,51,92,0.1);
+}
+
+.form [type=submit] {
+    background-color: #F3A712;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+ h2 {
+    color: #29335C;
+   
+    padding: 1rem 2vw;
+    
+}
+ p {
+    color: #29335C;
+    margin: 0 2vw;
+    
+
+}
+ ul {
+    list-style-type: circle;
+    color: #29335C;
+    
+}
+
+
+
+main address{
+    font-style: normal;
+    background-color: #F5F5F5;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #363062;
+    border-radius: .5rem;
+}
+a {
+    color: #363062;
+}
+ a:hover {
+    color: #F2DA5E;
+}
+
+/* Footer stuff here*/
+
+footer{
+    background-color: #29335C;
+    text-align: center;
+    color: #F3A712;
+    padding: 1rem 0;
+    font-size: .8rem;
+    
+}
+footer p{
+    color: #f3A712;
+}
+footer a {
+    color:#F3A712;
+}
+
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
